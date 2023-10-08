@@ -151,3 +151,25 @@ a {
         padding-left: 0;
     }
 }
+
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+/* used single hypen b/c this class is not a variatin of icon but a 
+completely diff. cotainer */
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
