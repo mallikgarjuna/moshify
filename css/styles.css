@@ -89,7 +89,7 @@ a {
 .link-arrow::after {
     content: '-->';
     margin-left: 5px;
-    transform: margin 0.15s;
+    transform: margin-left 0.15s;
 }
 
 .link-arrow:hover::after {
